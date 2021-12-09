@@ -3,6 +3,9 @@ import jwt from 'jsonwebtoken'
 import { auth } from './config'
 import { createRefreshToken } from './database'
 
+// user: diego@rocketseat.team
+// password: 123456
+
 export function generateJwtAndRefreshToken(
   email: string,
   payload: object = {}
